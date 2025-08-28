@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/bg_white"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_20sdp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_no_wifi"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:text="@string/txt_network"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="@color/colorTextPrimary"/>
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/retry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_primary_15"
+                android:text="Retry"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/colorTextPrimary"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_weight="1"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/connectNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_accent_15"
+                android:text="Connect now"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_weight="1"/>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

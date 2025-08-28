@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/bg_white"
+        android:orientation="vertical">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/delete_file"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="@dimen/_13sdp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/are_you_sure_you_want_to_delete_this_action_cannot_be_undone"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/_12sdp"/>
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/main_vp_item_unselected"
+                android:layout_weight="1"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:text="@string/delete"
+                android:gravity="center"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/main_vp_item_selected"
+                android:layout_weight="1"/>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

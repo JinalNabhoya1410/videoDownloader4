@@ -6,6 +6,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/img_splash"
-    tools:context=".ui.activity.SplashActivity">
+    tools:context=".ui.activity.common.SplashActivity">
 
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/all_video_downloader"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_17sdp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/txt_splash"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            style="@style/Widget.Material3.LinearProgressIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:indeterminate="true"
+            app:indicatorColor="@color/coloAccent1"
+            app:trackColor="@color/white" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/txt_contains_ad"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
 </com.google.android.material.circularreveal.CircularRevealRelativeLayout>

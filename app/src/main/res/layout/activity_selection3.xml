@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    tools:context=".ui.activity.common.SelectionActivity3">
+
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginHorizontal="@dimen/_10sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/next"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_next_with_bg" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center"
+            android:text="@string/txt_selection_title_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/bg_selection"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/social_media_site"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_social_media_site"
+                    android:textColor="@color/colorTextPrimary" />
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/selection_1"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="end|center_vertical"
+                android:src="@drawable/rb_selection"
+                android:layout_marginEnd="@dimen/_10sdp"/>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/bg_selection"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/all_video_download_site"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_all_video_download_site"
+                    android:textColor="@color/colorTextPrimary" />
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/selection_2"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="end|center_vertical"
+                android:src="@drawable/rb_selection"
+                android:layout_marginEnd="@dimen/_10sdp"/>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

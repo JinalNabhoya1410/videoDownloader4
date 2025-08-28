@@ -1,4 +1,4 @@
-package com.allin.videospro.ui.activity
+package com.allin.videospro.ui.activity.common
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.allin.videospro.R
 import com.allin.videospro.databinding.ActivitySplashBinding
+import com.allin.videospro.ui.activity.MainActivity
 import com.allin.videospro.util.areAllPermissionsGranted
 
 class SplashActivity : AppCompatActivity() {
@@ -38,10 +39,10 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(mainLooper).postDelayed({
             if (areAllPermissionsGranted(this)){
-                startActivity(Intent(this,MainActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
                 finish()
             }else{
-                startActivity(Intent(this,LanguageActivity::class.java))
+                startActivity(Intent(this, LanguageActivity::class.java))
                 finish()
             }
         },2000)

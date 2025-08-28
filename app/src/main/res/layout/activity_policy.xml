@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activity.common.PolicyActivity">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_back"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:contentPadding="@dimen/_3sdp"
+            android:layout_centerVertical="true"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/policy"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_below="@id/toolbar">
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy_info"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"/>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

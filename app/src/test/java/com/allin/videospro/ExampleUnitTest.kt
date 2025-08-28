@@ -1,4 +1,4 @@
-package com.app.app
+package com.allin.videospro
 
 import org.junit.Test
 

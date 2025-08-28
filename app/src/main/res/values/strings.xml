@@ -1,3 +1,117 @@
 <resources>
-    <string name="app_name">VideoDownloader</string>
+    <string name="app_name" translatable="false">VideoDownloader</string>
+    <string name="txt_splash">Download videos effortlessly from any platform with our all-in-one video Downloader, Save your favourite content for offline viewing in just a few clicks.</string>
+    <string name="txt_contains_ad">This action may contains advertising</string>
+    <string name="select_language">Select language</string>
+    <string name="txt_onboard_title_1">Which feature are commonly found in an all Video Downloader app?</string>
+    <string name="video_downloader">Video downloader</string>
+    <string name="my_downloader">My downloader</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="josh">Josh</string>
+    <string name="tiktok">TikTok</string>
+    <string name="share_chat">Share Chat</string>
+    <string name="moj">Moj</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="tips">Tips:</string>
+    <string name="txt_download_tip">You can Download only public account Videos</string>
+    <string name="txt_hint">Paste your link here</string>
+    <string name="please_enter_valid_link">Please enter valid link</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="video_download_successfully">Video download successfully</string>
+    <string name="please_try_again_later">Please, Try again later</string>
+    <string name="download">Download</string>
+    <string name="setting">Setting</string>
+    <string name="change_language">Change language</string>
+    <string name="rate_the_app">Rate the app</string>
+    <string name="share_with_friends">Share with friends</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="my_downloads">My Downloads</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_files_found">No data found</string>
+    <string name="whatsapp_is_not_installed">Whatsapp is not installed.</string>
+    <string name="delete_file">Delete File</string>
+    <string name="are_you_sure_you_want_to_delete_this_action_cannot_be_undone">Are you sure you want to delete?This action cannot be undone.</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="status_saver">Status Saver</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="unable_to_open_file">Unable to open file.</string>
+    <string name="txt_selection_title_1">Which feature are commonly found in an all Video Downloader app?</string>
+    <string name="txt_selection_title_2">What video formats are typically supported by downloader apps?</string>
+    <string name="txt_selection_title_3">What platforms are usually compatible with video downloader apps?</string>
+    <string name="video_downloading">Video downloading</string>
+    <string name="txt_video_download">Enjoy offline viewing anytime with high - quality video downloads.</string>
+    <string name="save_image_video"><![CDATA[Save Image & Video]]></string>
+    <string name="txt_save_image">Save your favourite images and videos directly to your device for easy access.</string>
+    <string name="download_hd">Download Video in high Quality</string>
+    <string name="txt_download_hd">Download videos in stunning high quality for the best viewing experience.</string>
+    <string name="social_media_site">Social Media Sites (e.g. FB, Insta)</string>
+    <string name="txt_social_media_site">Share your life through photos, videos &amp; stories in an instant. Engage with friends &amp; communities through comments, likes &amp; direct messages. Stay updated with real-time posts &amp; updates from those you follow.</string>
+    <string name="all_video_download_site">All Video Downloader Site (e.g. Vimeo, X)</string>
+    <string name="txt_all_video_download_site">Access content in various formats and resolutions with ease. Fast and secure downloads for videos you want to save and enjoy offline. Support for a wide range of video sites, ensuring you never miss your favorite content.</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="txt_permission">To give you the best experience, we need access to your storage. This lets us save downloaded videos directly to your device.</string>
+    <string name="permissions">Permissions</string>
+    <string name="storage">Storage</string>
+    <string name="notification">Notification</string>
+    <string name="txt_permission_storage">This lets us save images, videos, and other content to your device. We do not access or share your personal files. Your data stays private and secure at all times.</string>
+    <string name="txt_permission_permission">Stay updated with important alerts, new content, and app features. Never miss a message, update, or reminder again. We only send relevant and helpful notifications. No spam-just what you need, when you need it.</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="policy">Policy</string>
+    <string name="txt_network">Oops!\nyour Network is Missed.\nPlease check your Connection.</string>
+    <string name="play_tube_video_downloader">
+        <![CDATA[
+            <font color="#000000">Play Tube</font>
+            <font color="#E92F32">Video</font>
+            <font color="#000000">Downloader</font>
+        ]]></string>
+    <string name="all_video_downloader">
+    <![CDATA[
+        <font color="#000000">All</font>
+        <font color="#FFFFFF"> Video</font><br>
+        <font color="#000000">Downloader</font>
+    ]]>
+    </string>
+
+    <string name="policy_info" translatable="false"><![CDATA[
+<font color=\'#E92F32\'><b>1. Information We Collect</b></font><br/>
+&bull; <b>Personal Information:</b> We do not collect personally identifiable information like name, email, or phone number.<br/>
+&bull; <b>Non-Personal Information:</b> Device details, app usage data, transaction history, analytics.<br/>
+&bull; <b>Third-Party Services:</b> May include Google AdMob, Firebase Analytics, etc.<br/><br/>
+
+<font color=\'#E92F32\'><b>2. How We Use Your Information</b></font><br/>
+&bull; Provide and optimize app services<br/>
+&bull; Improve user experience and fix bugs<br/>
+&bull; Serve relevant advertisements<br/>
+&bull; Analyze user behavior to enhance app performance<br/><br/>
+
+<font color=\'#E92F32\'><b>3. Third-Party Services</b></font><br/>
+&bull; Google AdMob Privacy Policy<br/>
+&bull; Firebase Analytics Privacy Policy<br/><br/>
+
+<font color=\'#E92F32\'><b>4. Children’s Privacy</b></font><br/>
+Our app is not intended for children under 13. We do not knowingly collect data from children. If you think we did, please contact us.<br/><br/>
+
+<font color=\'#E92F32\'><b>5. Data Security</b></font><br/>
+We take security measures, but no internet-based service is 100% secure.<br/><br/>
+
+<font color=\'#E92F32\'><b>6. Your Choices</b></font><br/>
+&bull; Disable ad tracking or limit data collection via device settings<br/>
+&bull; Opt out of personalized ads via Google settings<br/><br/>
+
+<font color=\'#E92F32\'><b>7. Changes to This Privacy Policy</b></font><br/>
+This policy may change. Any updates will be posted with a revised effective date.<br/><br/>
+
+<font color=\'#E92F32\'><b>8. Contact Us</b></font><br/>
+If you have any questions, feel free to contact us.<br/><br/>
+
+<font color=\'#E92F32\'>By using our app, you agree to the terms of this Privacy Policy.</font>
+]]></string>
+
 </resources>

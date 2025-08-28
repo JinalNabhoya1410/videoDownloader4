@@ -1,16 +1,16 @@
-package com.app.app.ui.activity
+package com.allin.videospro.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.addCallback
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.app.app.R
-import com.app.app.databinding.ActivityMainBinding
-import com.app.app.ui.base.BaseActivity
+import com.allin.videospro.R
+import com.allin.videospro.databinding.ActivityMainBinding
+import com.allin.videospro.ui.activity.common.SettingActivity
+import com.allin.videospro.ui.base.BaseActivity
 
 class MainActivity : BaseActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -43,7 +43,7 @@ class MainActivity : BaseActivity() {
             }
 
             setting.setOnClickListener {
-                startActivity(Intent(this@MainActivity,SettingActivity::class.java))
+                startActivity(Intent(this@MainActivity, SettingActivity::class.java))
             }
         }
     }

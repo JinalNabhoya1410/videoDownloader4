@@ -1,4 +1,4 @@
-package com.app.app
+package com.allin.videospro
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

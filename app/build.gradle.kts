@@ -4,16 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.app.app"
+    namespace = "com.allin.videospro"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.app.app"
+        applicationId = "com.allin.videospro"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
-
+        setProperty("archivesBaseName","VideoDownloader_${versionName}")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -51,4 +51,10 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.intuit.sdp:sdp-android:1.1.1")
+
+    implementation("com.github.amitshekhariitbhu:PRDownloader:1.0.2")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("org.jsoup:jsoup:1.16.1")
+
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 }
